@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Share+Tech');
+
+* {
+  background-color: #fff;
+  font-family: 'Kristen ITC', sans-serif;      
+}
+
+div.name { 
+  margin: auto;
+  margin-top: 50px;
+  width: 350px;
+  border-bottom-style: dashed;
+  border-bottom-color: #347235;
+}
+
+div.name h1 {
+  text-align: center;
+  font-family: 'Kristen ITC', sans-serif;    
+}
+
+#container { 
+  padding: 20px;
+  width: 360px;
+  margin: 10px auto;
+  border-radius: 23px;
+  position: absolute;
+  margin: auto;
+  width: 400px;
+  height: 360px;  
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #347235;  
+}
+
+.box {  
+  background-color: #347235;
+  width: 32%;
+  height: 32%;  
+  float: left;  
+  cursor: pointer;
+  text-align: center;
+  font-size: 35px;
+  line-height: 120px;  
+  color: #fff;
+  /*centering the text vertically*/
+}
+
+#one, #two, #five {
+  border-right: 4px solid #89C35C;  
+}
+
+#eight, #nine, #five {
+  border-left: 4px solid #89C35C;
+}
+
+#four, #five, #six {
+  border-top: 4px solid #89C35C;
+  border-bottom: 4px solid #89C35C;
+}
+
+#btn {
+  position: fixed;
+  margin: auto;
+  margin-top: 650px;
+  text-align: center;
+  bottom: -350px;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 50px;
+  line-height: 20px;
+  background: #feee7d;
+  border: 2px solid #89C35C;
+  color: #347235;
+  border-radius: 23px;
+  background-color: transparent;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: 'Kristen ITC', sans-serif;     
+  font-size: 18px;
+}
+
+#btn:hover {
+    border-color: #89C35C;
+    background-color: #89C35C;
+    cursor: pointer;
+    color: #fff;
+}
